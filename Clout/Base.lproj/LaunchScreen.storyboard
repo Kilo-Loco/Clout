@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8150" systemVersion="15A204g" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" initialViewController="01J-lp-oVM">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" initialViewController="01J-lp-oVM">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8122"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -15,8 +16,32 @@
                     <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <animations/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Clout Logo" translatesAutoresizingMaskIntoConstraints="NO" id="OK9-QE-eeV">
+                                <rect key="frame" x="150" y="156" width="301" height="73"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="73" id="Nlx-tC-jZK"/>
+                                    <constraint firstAttribute="width" constant="301" id="sdj-eS-HWZ"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="BE REWARDED FOR SPENDING" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ggj-uA-YBR">
+                                <rect key="frame" x="152" y="226" width="297" height="35"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="35" id="M5q-gb-g9N"/>
+                                    <constraint firstAttribute="width" constant="297" id="UXe-6S-pkX"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="20"/>
+                                <color key="textColor" white="1" alpha="0.65482219827586208" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.1764705882352941" green="0.62352941176470589" blue="0.81568627450980391" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="Ggj-uA-YBR" firstAttribute="top" secondItem="OK9-QE-eeV" secondAttribute="bottom" constant="-3" id="8Tw-we-UhG"/>
+                            <constraint firstItem="Ggj-uA-YBR" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="Yqb-ho-iBb"/>
+                            <constraint firstItem="OK9-QE-eeV" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" constant="136" id="biq-vl-Ror"/>
+                            <constraint firstItem="OK9-QE-eeV" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="etz-eV-0wS"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -24,4 +49,7 @@
             <point key="canvasLocation" x="53" y="375"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="Clout Logo" width="250" height="61"/>
+    </resources>
 </document>
