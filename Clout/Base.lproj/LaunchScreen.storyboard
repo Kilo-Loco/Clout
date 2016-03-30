@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" initialViewController="01J-lp-oVM">
     <dependencies>
-        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
     </dependencies>
     <scenes>
@@ -17,6 +16,9 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="CloutBlueBG" translatesAutoresizingMaskIntoConstraints="NO" id="Orx-Rd-cNP">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                            </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Clout Logo" translatesAutoresizingMaskIntoConstraints="NO" id="OK9-QE-eeV">
                                 <rect key="frame" x="150" y="156" width="301" height="73"/>
                                 <constraints>
@@ -38,9 +40,13 @@
                         <color key="backgroundColor" red="0.1764705882352941" green="0.62352941176470589" blue="0.81568627450980391" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="Ggj-uA-YBR" firstAttribute="top" secondItem="OK9-QE-eeV" secondAttribute="bottom" constant="-3" id="8Tw-we-UhG"/>
+                            <constraint firstAttribute="trailing" secondItem="Orx-Rd-cNP" secondAttribute="trailing" id="Ix4-Fq-BnW"/>
+                            <constraint firstItem="Orx-Rd-cNP" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="LpO-fW-cCO"/>
+                            <constraint firstItem="Orx-Rd-cNP" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="Rfq-7Q-AKC"/>
                             <constraint firstItem="Ggj-uA-YBR" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="Yqb-ho-iBb"/>
                             <constraint firstItem="OK9-QE-eeV" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" constant="136" id="biq-vl-Ror"/>
                             <constraint firstItem="OK9-QE-eeV" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="etz-eV-0wS"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="Orx-Rd-cNP" secondAttribute="bottom" id="yc1-MP-Ej8"/>
                         </constraints>
                     </view>
                 </viewController>
@@ -51,5 +57,6 @@
     </scenes>
     <resources>
         <image name="Clout Logo" width="250" height="61"/>
+        <image name="CloutBlueBG" width="375" height="667"/>
     </resources>
 </document>
