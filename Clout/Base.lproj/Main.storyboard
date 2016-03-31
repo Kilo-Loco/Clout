@@ -793,6 +793,13 @@
                                                 <constraint firstItem="Cpe-0P-HLU" firstAttribute="top" secondItem="27a-JC-QVV" secondAttribute="top" id="ttU-Oh-xKo"/>
                                             </constraints>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="FBusinessImage" destination="Cpe-0P-HLU" id="DEw-aH-ws1"/>
+                                            <outlet property="FBusinessLocation" destination="TZk-i5-ztx" id="y4H-hQ-qFn"/>
+                                            <outlet property="FBusinessName" destination="PD6-IW-6HK" id="kjh-5l-ywN"/>
+                                            <outlet property="FOfferedRewards" destination="NN4-Vy-lMg" id="RIz-2U-mcK"/>
+                                            <outlet property="FParticipatingClouters" destination="gCz-9p-VdW" id="afA-3N-6kk"/>
+                                        </connections>
                                     </tableViewCell>
                                 </prototypes>
                             </tableView>
@@ -964,6 +971,12 @@
                                                 <constraint firstItem="YVL-6i-1yT" firstAttribute="top" secondItem="dmL-CW-a3x" secondAttribute="topMargin" id="wNC-1K-4fk"/>
                                             </constraints>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="NWClouterEmail" destination="8VA-Yu-nPE" id="Q2e-4n-Uvq"/>
+                                            <outlet property="NWClouterImage" destination="IwW-7R-i8n" id="BEh-pd-xNV"/>
+                                            <outlet property="NWClouterName" destination="0DF-QL-XK1" id="6wg-nG-5bM"/>
+                                            <outlet property="NWClouterScore" destination="xyq-rw-NWF" id="VwE-O8-kxm"/>
+                                        </connections>
                                     </tableViewCell>
                                 </prototypes>
                             </tableView>
@@ -1509,6 +1522,14 @@
                                                 <constraint firstAttribute="trailing" secondItem="3n0-uR-1fk" secondAttribute="trailing" id="wBb-TC-rs3"/>
                                             </constraints>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="NBBusinessDistanceLabel" destination="4zn-xt-bXE" id="hpq-2Q-bsv"/>
+                                            <outlet property="NBBusinessImage" destination="xtk-KH-7CB" id="em6-ja-uq4"/>
+                                            <outlet property="NBBusinessIndustryLbl" destination="7SJ-nY-Bk4" id="LkX-v5-nWd"/>
+                                            <outlet property="NBBusinessNameLbl" destination="Vae-7o-t2Y" id="flX-ON-pha"/>
+                                            <outlet property="NBUserEarnedLbl" destination="39J-xG-wqS" id="2MP-5R-RVA"/>
+                                            <outlet property="NBUserTransactionsLbl" destination="LsS-Zc-vhv" id="Web-4E-F82"/>
+                                        </connections>
                                     </tableViewCell>
                                 </prototypes>
                             </tableView>

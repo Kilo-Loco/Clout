@@ -9,5 +9,8 @@
 import UIKit
 
 class NetworkCell: UITableViewCell {
-
+    @IBOutlet weak var NWClouterImage: UIImageView!
+    @IBOutlet weak var NWClouterName: UILabel!
+    @IBOutlet weak var NWClouterEmail: UILabel!
+    @IBOutlet weak var NWClouterScore: UILabel!
 }

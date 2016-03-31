@@ -9,5 +9,9 @@
 import UIKit
 
 class FeaturedCell: UITableViewCell {
-
+    @IBOutlet weak var FBusinessImage: UIImageView!
+    @IBOutlet weak var FBusinessName: UILabel!
+    @IBOutlet weak var FBusinessLocation: UILabel!
+    @IBOutlet weak var FParticipatingClouters: UILabel!
+    @IBOutlet weak var FOfferedRewards: UILabel!
 }
