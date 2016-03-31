@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7C05CF151CAD95E70026F48C /* CommonVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C05CF141CAD95E70026F48C /* CommonVC.swift */; };
+		7C05CF171CAD991D0026F48C /* NearbyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C05CF161CAD991D0026F48C /* NearbyCell.swift */; };
+		7C05CF191CAD99710026F48C /* FeaturedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C05CF181CAD99710026F48C /* FeaturedCell.swift */; };
+		7C05CF1B1CAD99A20026F48C /* NetworkCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C05CF1A1CAD99A20026F48C /* NetworkCell.swift */; };
+		7C05CF1D1CAD99F60026F48C /* NearbyVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C05CF1C1CAD99F60026F48C /* NearbyVC.swift */; };
+		7C05CF1F1CAD9A620026F48C /* FeatureVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C05CF1E1CAD9A620026F48C /* FeatureVC.swift */; };
+		7C05CF211CAD9A9F0026F48C /* NetworkVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C05CF201CAD9A9F0026F48C /* NetworkVC.swift */; };
 		7C64681E1CA9072A00BB1B83 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C64681D1CA9072A00BB1B83 /* AppDelegate.swift */; };
 		7C6468201CA9072A00BB1B83 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C64681F1CA9072A00BB1B83 /* ViewController.swift */; };
 		7C6468231CA9072A00BB1B83 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C6468211CA9072A00BB1B83 /* Main.storyboard */; };
@@ -16,6 +23,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7C05CF141CAD95E70026F48C /* CommonVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommonVC.swift; sourceTree = "<group>"; };
+		7C05CF161CAD991D0026F48C /* NearbyCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NearbyCell.swift; sourceTree = "<group>"; };
+		7C05CF181CAD99710026F48C /* FeaturedCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeaturedCell.swift; sourceTree = "<group>"; };
+		7C05CF1A1CAD99A20026F48C /* NetworkCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkCell.swift; sourceTree = "<group>"; };
+		7C05CF1C1CAD99F60026F48C /* NearbyVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NearbyVC.swift; sourceTree = "<group>"; };
+		7C05CF1E1CAD9A620026F48C /* FeatureVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeatureVC.swift; sourceTree = "<group>"; };
+		7C05CF201CAD9A9F0026F48C /* NetworkVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkVC.swift; sourceTree = "<group>"; };
 		7C64681A1CA9072900BB1B83 /* Clout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Clout.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C64681D1CA9072A00BB1B83 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7C64681F1CA9072A00BB1B83 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -77,6 +91,10 @@
 			children = (
 				7C64681D1CA9072A00BB1B83 /* AppDelegate.swift */,
 				7C64681F1CA9072A00BB1B83 /* ViewController.swift */,
+				7C05CF141CAD95E70026F48C /* CommonVC.swift */,
+				7C05CF1C1CAD99F60026F48C /* NearbyVC.swift */,
+				7C05CF1E1CAD9A620026F48C /* FeatureVC.swift */,
+				7C05CF201CAD9A9F0026F48C /* NetworkVC.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -87,6 +105,9 @@
 				7C6468291CA9072A00BB1B83 /* LaunchScreen.storyboard */,
 				7C6468211CA9072A00BB1B83 /* Main.storyboard */,
 				7C6468271CA9072A00BB1B83 /* Assets.xcassets */,
+				7C05CF161CAD991D0026F48C /* NearbyCell.swift */,
+				7C05CF181CAD99710026F48C /* FeaturedCell.swift */,
+				7C05CF1A1CAD99A20026F48C /* NetworkCell.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -172,8 +193,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				7C6468261CA9072A00BB1B83 /* Clout.xcdatamodeld in Sources */,
+				7C05CF1B1CAD99A20026F48C /* NetworkCell.swift in Sources */,
 				7C6468201CA9072A00BB1B83 /* ViewController.swift in Sources */,
+				7C05CF211CAD9A9F0026F48C /* NetworkVC.swift in Sources */,
+				7C05CF1D1CAD99F60026F48C /* NearbyVC.swift in Sources */,
+				7C05CF171CAD991D0026F48C /* NearbyCell.swift in Sources */,
+				7C05CF1F1CAD9A620026F48C /* FeatureVC.swift in Sources */,
+				7C05CF191CAD99710026F48C /* FeaturedCell.swift in Sources */,
 				7C64681E1CA9072A00BB1B83 /* AppDelegate.swift in Sources */,
+				7C05CF151CAD95E70026F48C /* CommonVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -231,10 +231,10 @@
             </objects>
             <point key="canvasLocation" x="243" y="338"/>
         </scene>
-        <!--View Controller-->
+        <!--CommonVC-->
         <scene sceneID="Nih-qM-xWz">
             <objects>
-                <viewController id="jyE-Vi-A7a" sceneMemberID="viewController">
+                <viewController id="jyE-Vi-A7a" customClass="CommonVC" customModule="Clout" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="i1R-EV-pro"/>
                         <viewControllerLayoutGuide type="bottom" id="6ia-EV-3Ag"/>
@@ -709,10 +709,10 @@
             </objects>
             <point key="canvasLocation" x="243" y="1125"/>
         </scene>
-        <!--View Controller-->
+        <!--FeaturedVC-->
         <scene sceneID="zeH-ie-K3E">
             <objects>
-                <viewController id="ca0-5u-hVz" sceneMemberID="viewController">
+                <viewController id="ca0-5u-hVz" customClass="FeaturedVC" customModule="Clout" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="qOM-eW-SuD"/>
                         <viewControllerLayoutGuide type="bottom" id="ZHP-qB-Yfv"/>
@@ -741,7 +741,7 @@
                                 <rect key="frame" x="0.0" y="64" width="600" height="487"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="242" id="zt5-U8-T6V">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="242" id="zt5-U8-T6V" customClass="FeaturedCell" customModule="Clout" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="600" height="242"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="zt5-U8-T6V" id="27a-JC-QVV">
@@ -822,10 +822,10 @@
             </objects>
             <point key="canvasLocation" x="1842" y="1078"/>
         </scene>
-        <!--View Controller-->
+        <!--NetworkVC-->
         <scene sceneID="TBk-0o-18g">
             <objects>
-                <viewController id="CtE-Wn-vN6" sceneMemberID="viewController">
+                <viewController id="CtE-Wn-vN6" customClass="NetworkVC" customModule="Clout" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="HST-eB-hdN"/>
                         <viewControllerLayoutGuide type="bottom" id="mRZ-Ew-G7t"/>
@@ -909,7 +909,7 @@
                                 <rect key="frame" x="0.0" y="232" width="600" height="319"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="68" id="cHG-7g-uHd">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="68" id="cHG-7g-uHd" customClass="NetworkCell" customModule="Clout" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="600" height="68"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="cHG-7g-uHd" id="dmL-CW-a3x">
@@ -996,10 +996,10 @@
             </objects>
             <point key="canvasLocation" x="1842" y="1819"/>
         </scene>
-        <!--View Controller-->
+        <!--CommonVC-->
         <scene sceneID="KwG-fb-bhS">
             <objects>
-                <viewController id="21n-TJ-tVE" sceneMemberID="viewController">
+                <viewController id="21n-TJ-tVE" customClass="CommonVC" customModule="Clout" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="bO1-6A-BLh"/>
                         <viewControllerLayoutGuide type="bottom" id="bh6-by-bCg"/>
@@ -1265,10 +1265,10 @@
             </objects>
             <point key="canvasLocation" x="1842" y="2565"/>
         </scene>
-        <!--View Controller-->
+        <!--CommonVC-->
         <scene sceneID="mcn-7i-DLG">
             <objects>
-                <viewController id="PAy-Oa-yiW" sceneMemberID="viewController">
+                <viewController id="PAy-Oa-yiW" customClass="CommonVC" customModule="Clout" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="F2E-Nt-Zxv"/>
                         <viewControllerLayoutGuide type="bottom" id="UQA-7B-dpb"/>
@@ -1415,10 +1415,10 @@
             </objects>
             <point key="canvasLocation" x="1842" y="3323"/>
         </scene>
-        <!--View Controller-->
+        <!--NearbyVC-->
         <scene sceneID="six-zs-Tdb">
             <objects>
-                <viewController id="Zx5-6A-sL7" sceneMemberID="viewController">
+                <viewController id="Zx5-6A-sL7" customClass="NearbyVC" customModule="Clout" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="9HJ-Hc-4ps"/>
                         <viewControllerLayoutGuide type="bottom" id="vV0-as-Rwl"/>
@@ -1447,7 +1447,7 @@
                                 <rect key="frame" x="0.0" y="64" width="600" height="487"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="194" id="K1T-5r-IVy">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="194" id="K1T-5r-IVy" customClass="NearbyCell" customModule="Clout" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="600" height="194"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="K1T-5r-IVy" id="22q-Ev-AYM">
