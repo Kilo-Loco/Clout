@@ -8,6 +8,28 @@
 
 import UIKit
 
-class NearbyVC: CommonVC {
+class NearbyVC: CommonVC, UITableViewDataSource, UITableViewDelegate {
+    
+    @IBOutlet weak var NBTableView: UITableView!
 
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        
+        self.NBTableView.dataSource = self
+        self.NBTableView.delegate = self
+    }
+    
+    func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
+        return NearbyCell()
+    }
+    
+    func numberOfSectionsInTableView(tableView: UITableView) -> Int {
+        return 1
+    }
+    
+    func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return 5
+    }
+    
+    
 }

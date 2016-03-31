@@ -16,4 +16,8 @@ class NearbyCell: UITableViewCell {
     @IBOutlet weak var NBBusinessDistanceLabel: UILabel!
     @IBOutlet weak var NBUserTransactionsLbl: UILabel!
     @IBOutlet weak var NBUserEarnedLbl: UILabel!
+    
+    override func awakeFromNib() {
+        super.awakeFromNib()
+    }
 }

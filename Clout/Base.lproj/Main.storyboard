@@ -741,7 +741,7 @@
                                 <rect key="frame" x="0.0" y="64" width="600" height="487"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="242" id="zt5-U8-T6V" customClass="FeaturedCell" customModule="Clout" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="FeaturedCell" rowHeight="242" id="zt5-U8-T6V" customClass="FeaturedCell" customModule="Clout" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="600" height="242"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="zt5-U8-T6V" id="27a-JC-QVV">
@@ -824,6 +824,9 @@
                         </variation>
                     </view>
                     <tabBarItem key="tabBarItem" systemItem="favorites" id="OtX-sU-uY3"/>
+                    <connections>
+                        <outlet property="FTableView" destination="Lyx-2P-sW7" id="5QW-oa-rrA"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wdw-38-Hu9" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -916,7 +919,7 @@
                                 <rect key="frame" x="0.0" y="232" width="600" height="319"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="68" id="cHG-7g-uHd" customClass="NetworkCell" customModule="Clout" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="NetworkCell" rowHeight="68" id="cHG-7g-uHd" customClass="NetworkCell" customModule="Clout" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="600" height="68"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="cHG-7g-uHd" id="dmL-CW-a3x">
@@ -1004,6 +1007,9 @@
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" systemItem="contacts" id="wYF-MY-fEw"/>
+                    <connections>
+                        <outlet property="NWTableView" destination="q6M-4d-ySO" id="Ral-rR-TNo"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="TLx-P7-ThC" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -1460,7 +1466,7 @@
                                 <rect key="frame" x="0.0" y="64" width="600" height="487"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="194" id="K1T-5r-IVy" customClass="NearbyCell" customModule="Clout" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="NearbyCell" rowHeight="194" id="K1T-5r-IVy" customClass="NearbyCell" customModule="Clout" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="600" height="194"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="K1T-5r-IVy" id="22q-Ev-AYM">
@@ -1555,6 +1561,9 @@
                         </variation>
                     </view>
                     <tabBarItem key="tabBarItem" systemItem="search" id="bzQ-XL-M5b"/>
+                    <connections>
+                        <outlet property="NBTableView" destination="N8N-tg-skJ" id="9vl-zK-aiK"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cYc-2B-4PO" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

@@ -13,4 +13,16 @@ class NetworkCell: UITableViewCell {
     @IBOutlet weak var NWClouterName: UILabel!
     @IBOutlet weak var NWClouterEmail: UILabel!
     @IBOutlet weak var NWClouterScore: UILabel!
+    
+    override func awakeFromNib() {
+        super.awakeFromNib()
+    }
+    
+    func configureCell(clouter: NWClouter) {
+        self.NWClouterImage.image = clouter.image
+        self.NWClouterName.text = clouter.name
+        self.NWClouterEmail.text = clouter.email
+        self.NWClouterScore.text = clouter.score
+    }
+    
 }
