@@ -20,4 +20,14 @@ class NearbyCell: UITableViewCell {
     override func awakeFromNib() {
         super.awakeFromNib()
     }
+    
+    func configureCell(nearby: NBBusiness) {
+        
+        self.NBBusinessImage.image = nearby.image
+        self.NBBusinessNameLbl.text = nearby.name
+        self.NBBusinessIndustryLbl.text = nearby.industry
+        self.NBBusinessDistanceLabel.text = nearby.distance
+        self.NBUserTransactionsLbl.text = nearby.transactions
+        self.NBUserEarnedLbl.text = nearby.earnings
+    }
 }

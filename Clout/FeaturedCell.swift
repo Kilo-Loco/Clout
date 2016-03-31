@@ -19,5 +19,12 @@ class FeaturedCell: UITableViewCell {
         super.awakeFromNib()
     }
     
-    
+    func configureCell(featured: FBusiness) {
+       
+        self.FBusinessImage.image = featured.image
+        self.FBusinessName.text = featured.name
+        self.FBusinessLocation.text = featured.location
+        self.FParticipatingClouters.text = featured.participants
+        self.FOfferedRewards.text = featured.rewards
+    }
 }

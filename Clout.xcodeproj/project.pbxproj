@@ -18,6 +18,8 @@
 		7C05CF251CADA73A0026F48C /* FBusiness.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C05CF241CADA73A0026F48C /* FBusiness.swift */; };
 		7C05CF271CADA7490026F48C /* NBBusiness.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C05CF261CADA7490026F48C /* NBBusiness.swift */; };
 		7C05CF291CADAD770026F48C /* clouter.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7C05CF281CADAD770026F48C /* clouter.jpg */; };
+		7C05CF2B1CADB3060026F48C /* mcdonalds.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7C05CF2A1CADB3060026F48C /* mcdonalds.jpg */; };
+		7C05CF2D1CADB3160026F48C /* amc.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7C05CF2C1CADB3160026F48C /* amc.jpg */; };
 		7C64681E1CA9072A00BB1B83 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C64681D1CA9072A00BB1B83 /* AppDelegate.swift */; };
 		7C6468201CA9072A00BB1B83 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C64681F1CA9072A00BB1B83 /* ViewController.swift */; };
 		7C6468231CA9072A00BB1B83 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C6468211CA9072A00BB1B83 /* Main.storyboard */; };
@@ -38,6 +40,8 @@
 		7C05CF241CADA73A0026F48C /* FBusiness.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FBusiness.swift; sourceTree = "<group>"; };
 		7C05CF261CADA7490026F48C /* NBBusiness.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NBBusiness.swift; sourceTree = "<group>"; };
 		7C05CF281CADAD770026F48C /* clouter.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = clouter.jpg; sourceTree = "<group>"; };
+		7C05CF2A1CADB3060026F48C /* mcdonalds.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mcdonalds.jpg; sourceTree = "<group>"; };
+		7C05CF2C1CADB3160026F48C /* amc.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = amc.jpg; sourceTree = "<group>"; };
 		7C64681A1CA9072900BB1B83 /* Clout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Clout.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C64681D1CA9072A00BB1B83 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7C64681F1CA9072A00BB1B83 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -81,18 +85,20 @@
 				7C83062C1CAC753500400035 /* Model */,
 				7C83062B1CAC752E00400035 /* View */,
 				7C83062A1CAC752600400035 /* Controller */,
-				7C8306291CAC751800400035 /* Utilities */,
+				7C8306291CAC751800400035 /* Resources */,
 				7C64682C1CA9072A00BB1B83 /* Info.plist */,
 			);
 			path = Clout;
 			sourceTree = "<group>";
 		};
-		7C8306291CAC751800400035 /* Utilities */ = {
+		7C8306291CAC751800400035 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
 				7C05CF281CADAD770026F48C /* clouter.jpg */,
+				7C05CF2A1CADB3060026F48C /* mcdonalds.jpg */,
+				7C05CF2C1CADB3160026F48C /* amc.jpg */,
 			);
-			name = Utilities;
+			name = Resources;
 			sourceTree = "<group>";
 		};
 		7C83062A1CAC752600400035 /* Controller */ = {
@@ -192,7 +198,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				7C05CF291CADAD770026F48C /* clouter.jpg in Resources */,
+				7C05CF2B1CADB3060026F48C /* mcdonalds.jpg in Resources */,
 				7C64682B1CA9072A00BB1B83 /* LaunchScreen.storyboard in Resources */,
+				7C05CF2D1CADB3160026F48C /* amc.jpg in Resources */,
 				7C6468281CA9072A00BB1B83 /* Assets.xcassets in Resources */,
 				7C6468231CA9072A00BB1B83 /* Main.storyboard in Resources */,
 			);

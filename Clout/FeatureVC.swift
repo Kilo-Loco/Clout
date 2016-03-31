@@ -12,6 +12,8 @@ class FeaturedVC: CommonVC, UITableViewDataSource, UITableViewDelegate {
     
     @IBOutlet weak var FTableView: UITableView!
     
+    var exampleFeature = FBusiness()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -20,7 +22,12 @@ class FeaturedVC: CommonVC, UITableViewDataSource, UITableViewDelegate {
     }
     
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-        return FeaturedCell()
+        if let cell = tableView.dequeueReusableCellWithIdentifier("FeaturedCell") as? FeaturedCell {
+            cell.configureCell(self.exampleFeature)
+            return cell
+        } else {
+            return FeaturedCell()
+        }
     }
     
     func numberOfSectionsInTableView(tableView: UITableView) -> Int {

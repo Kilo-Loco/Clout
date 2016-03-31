@@ -11,6 +11,8 @@ import UIKit
 class NearbyVC: CommonVC, UITableViewDataSource, UITableViewDelegate {
     
     @IBOutlet weak var NBTableView: UITableView!
+    
+    var exampleBusiness = NBBusiness()
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -20,8 +22,12 @@ class NearbyVC: CommonVC, UITableViewDataSource, UITableViewDelegate {
     }
     
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-        return NearbyCell()
-    }
+        if let cell = tableView.dequeueReusableCellWithIdentifier("NearbyCell") as? NearbyCell {
+            cell.configureCell(self.exampleBusiness)
+            return cell
+        } else {
+            return NearbyCell()
+        }    }
     
     func numberOfSectionsInTableView(tableView: UITableView) -> Int {
         return 1
